@@ -1,0 +1,43 @@
+#docker-compose.yml
+
+version: '3.7'
+services:
+   Kmz_CI_Odoo_Template:
+      build: ./
+      container_name: Kmz_CI_Odoo_Template
+      #depends_on:
+      #   - postgres
+      ports:
+         - "8013:8069"
+         - "8073:8072"
+      volumes:
+         - ./config:/etc/odoo
+         - /opt/odoo_addons/odoo13:/mnt/extra-addons
+      environment:
+         - HOST=postgres
+         - USER=odoo
+         - PASSWORD=odoo
+      #command: odoo -d odoo130 -i base
+      command: odoo -d Kmz_CI_Odoo_Template -i product_autoref
+#   postgres:
+#      image: postgres:13
+#      container_name: postgres
+#      restart: always
+#      ports:
+#         - "5433:5432"
+#      environment:
+#         #- POSTGRES_DB=postgres
+#         - POSTGRES_PASSWORD=odoo
+#         - POSTGRES_USER=odoo
+#         - PGDATA=/var/lib/postgresql/data/pgdata
+#      volumes:
+#         - odoo-db-datas:/var/lib/postgresql/data/pgdata
+
+volumes:
+   odoo-web-datas:
+   odoo-db-datas:
+
+networks:
+    default:
+       external:
+          name: devops-network

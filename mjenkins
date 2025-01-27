@@ -1,0 +1,91 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Copy code to odoo container'){
+            steps{
+                sh '''#!/bin/bash
+                        echo "Start copying new code" 
+                        cp -r $WORKSPACE /opt/odoo_addons/odoo13/custom/.
+                        echo "Copyed at /opt/odoo_addons/odoo13/custom/$JOB_NAME"
+                 '''
+            	
+            }
+        }
+        
+        stage('PEP8 testing'){
+            steps{
+            	sshPublisher(
+        		  	continueOnError: false, failOnError: false,
+        		  	publishers: [
+        		  		sshPublisherDesc(
+        		  			configName: "VMDEVOPS",
+        		  			verbose: true,
+        		  			transfers: [
+        		  				sshTransfer(execCommand:"""
+        		  					cd /opt/odoo_addons/odoo13/custom/$JOB_NAME
+        		  					pycodestyle . --ignore=E501
+        		  				"""),
+        		  			]
+        		  		)
+        		  	]
+        		  )
+            }
+        }
+        
+        stage('UnitTests odoo docker'){
+        	steps{
+            	sshPublisher(
+        		  	continueOnError: false, failOnError: true,
+        		  	publishers: [
+        		  		sshPublisherDesc(
+        		  			configName: "VMDEVOPS",
+        		  			verbose: true,
+        		  			transfers: [
+        		  				sshTransfer(execCommand:"""
+        		  					cd /opt/odoo_addons/odoo13/custom/$JOB_NAME
+        		  					docker-compose -f docker-compose-test.yml down
+        		  					docker-compose -f docker-compose-test.yml up 
+                                    retVal=\$?
+                                    echo \$retVal
+                                    if [\$retVal != 0 ] ; then exit 1; fi
+        		  				"""),
+        		  			]
+        		  		)
+        		  	]
+        		  )
+            }
+        }
+		
+		stage('Start odoo docker'){
+        	steps{
+            	sshPublisher(
+        		  	continueOnError: false, failOnError: true,
+        		  	publishers: [
+        		  		sshPublisherDesc(
+        		  			configName: "VMDEVOPS",
+        		  			verbose: true,
+        		  			transfers: [
+        		  				sshTransfer(execCommand:"""
+        		  					cd /opt/odoo_addons/odoo13/custom/$JOB_NAME
+        		  					docker-compose down
+        		  					docker-compose up -d
+        		  				"""),
+        		  			]
+        		  		)
+        		  	]
+        		  )
+            }
+        }
+
+		stage('Go to Odoo database'){
+            steps{
+                sh '''#!/bin/bash
+                        echo 'http://localhost:8013'
+                 '''
+            	
+            }
+        }
+
+    }
+}
