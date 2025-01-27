@@ -1,0 +1,223 @@
+<odoo>
+    <data>
+        <record id="sce_unit_puissance_tree" model="ir.ui.view">
+            <field name="name">sce.unit.puissance.tree</field>
+            <field name="model">sce.unit.puissance</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="unit_power"/>
+                    <field name="is_default"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="sce_conso_profile_tree" model="ir.ui.view">
+            <field name="name">sce.conso.profile.tree</field>
+            <field name="model">sce.conso.profile</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="sce_orientation_tree" model="ir.ui.view">
+            <field name="name">sce.orientation.tree</field>
+            <field name="model">sce.orientation</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="orientation_id"/>
+                    <field name="is_multiple"/>
+                    <field name="theoretical_yield" attrs="{'invisible': [('is_multiple', '=', True)]}"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="sce_auto_consumption_tree" model="ir.ui.view">
+            <field name="name">sce.auto.consumption.tree</field>
+            <field name="model">sce.auto.consumption</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="auto_conso"/>
+                    <field name="is_default"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="sce_purchase_price_tree" model="ir.ui.view">
+            <field name="name">sce.purchase.price.tree</field>
+            <field name="model">sce.purchase.price</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="purchase_price"/>
+                    <field name="type"/>
+                    <field name="is_default"/>
+                </tree>
+            </field>
+        </record>
+
+<!--        <record id="sce_machine_type_tree" model="ir.ui.view">-->
+<!--            <field name="name">sce.machine.tree</field>-->
+<!--            <field name="model">sce.machine</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <tree editable="bottom">-->
+<!--                    <field name="name"/>-->
+<!--                    <field name="puissance"/>-->
+<!--                </tree>-->
+<!--            </field>-->
+<!--        </record>-->
+
+        <record id="sce_tax_deduction_tree" model="ir.ui.view">
+            <field name="name">sce.tax.deduction.tree</field>
+            <field name="model">sce.tax.deduction</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name"/>
+                    <field name="is_default"/>
+                </tree>
+            </field>
+        </record>
+        <record id="sce_installation_type_tree" model="ir.ui.view">
+            <field name="name">sce.installation.type.tree</field>
+            <field name="model">sce.installation.type</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name"/>
+                    <field name="val1"/>
+                    <field name="val2"/>
+                </tree>
+            </field>
+        </record>
+        <record id="sce_actual_conso_tree" model="ir.ui.view">
+            <field name="name">sce.actual.conso.tree</field>
+            <field name="model">sce.actual.conso</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name"/>
+                    <field name="type"/>
+                    <field name="value"/>
+                    <field name="conversion_factor"/>
+                </tree>
+            </field>
+        </record>
+
+
+        <record id="action_sce_unit_puissance" model="ir.actions.act_window">
+            <field name="name">Unit power</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.unit.puissance</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="action_sce_conso_profile" model="ir.actions.act_window">
+            <field name="name">Conso Profile</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.conso.profile</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="action_sce_auto_consumption" model="ir.actions.act_window">
+            <field name="name">Auto Consumption</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.auto.consumption</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="action_sce_purchase_price" model="ir.actions.act_window">
+            <field name="name">Purchase/Repurchase Price</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.purchase.price</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="action_sce_tax_deduction" model="ir.actions.act_window">
+            <field name="name">Tax Deduction</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.tax.deduction</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+<!--        <record id="action_sce_machine_type" model="ir.actions.act_window">-->
+<!--            <field name="name">Machine</field>-->
+<!--            <field name="type">ir.actions.act_window</field>-->
+<!--            <field name="res_model">sce.machine</field>-->
+<!--            <field name="view_mode">tree</field>-->
+<!--        </record>-->
+
+        <record id="action_sce_orientation" model="ir.actions.act_window">
+            <field name="name">Orientation</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.orientation</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="action_sce_installation_type" model="ir.actions.act_window">
+            <field name="name">Installation Type</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.installation.type</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <record id="action_sce_actual_conso" model="ir.actions.act_window">
+            <field name="name">Actual Conso</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">sce.actual.conso</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+
+        <menuitem name="Unit power"
+                  parent="sale.menu_sale_config"
+                  id="sce_unit_puissance_menu"
+                  sequence="300"
+                  action="action_sce_unit_puissance"/>
+
+        <menuitem name="Conso Profile"
+                  parent="sale.menu_sale_config"
+                  id="sce_conso_profile_menu"
+                  sequence="302"
+                  action="action_sce_conso_profile"/>
+
+        <menuitem name="Auto Consumption"
+                  parent="sale.menu_sale_config"
+                  id="sce_auto_consumptione_menu"
+                  sequence="303"
+                  action="action_sce_auto_consumption"/>
+
+        <menuitem name="Purchase Price"
+                  parent="sale.menu_sale_config"
+                  id="sce_purchase_price_menu"
+                  sequence="304"
+                  action="action_sce_purchase_price"/>
+
+<!--        <menuitem name="Machine"-->
+<!--                  parent="sale.menu_sale_config"-->
+<!--                  id="sce_machine_type_menu"-->
+<!--                  sequence="305"-->
+<!--                  action="action_sce_machine_type"/>-->
+
+        <menuitem name="Tax Deduction"
+                  parent="sale.menu_sale_config"
+                  id="sce_tax_deduction_menu"
+                  sequence="306"
+                  action="action_sce_tax_deduction"/>
+
+        <menuitem name="Orientation"
+                  parent="sale.menu_sale_config"
+                  id="sce_orientation_menu"
+                  sequence="307"
+                  action="action_sce_orientation"/>
+
+        <menuitem name="Installation Type"
+                  parent="sale.menu_sale_config"
+                  id="sce_installation_type_menu"
+                  sequence="308"
+                  action="action_sce_installation_type"/>
+
+        <menuitem name="Actual Conso"
+                  parent="sale.menu_sale_config"
+                  id="sce_actual_conso_menu"
+                  sequence="309"
+                  action="action_sce_actual_conso"/>
+    </data>
+</odoo>

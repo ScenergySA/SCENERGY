@@ -1,0 +1,121 @@
+.layout_headers_sce{
+    background: #C4C9C7;
+    font-family: 'Lato';
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px !important;
+}
+.custom_footer{
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.my-div {
+    position: relative;
+    text-align: center;
+}
+
+.my-text {
+    position: absolute;
+    top:65%;
+    width: 100%;
+}
+.my-text-air {
+    position: absolute;
+    top: 98% !important;
+    right: 20%;
+    width: 100%;
+}
+.my-text-fpa{
+    position: absolute;
+    left: 7px;
+    top: 66% !important;
+    width: 100%;
+}
+.my-text-img {
+    position: absolute;
+    top:42%;
+    width: 100%;
+}
+.marge-table{
+    border-collapse: separate;
+    border-spacing: 45px;
+}
+.custom-table{
+    border-collapse: separate;
+    border-spacing: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.my-text-img2 {
+    position: absolute;
+    top:20%;
+    width: 100%;
+}
+.my-text2 {
+    position: absolute;
+    top:28%;
+    width: 100%;
+}
+.my-text2-img {
+    position: absolute;
+    top:27%;
+    width: 100%;
+}
+.my-text2-img2 {
+    position: absolute;
+    top:55%;
+    width: 100%;
+}
+.left {
+    left: 0 !important;
+    text-align: center !important;
+}
+
+.right {
+    right: 0 !important;
+    text-align: center !important;
+}
+
+.top {
+    top: 100% !important;
+    margin-bottom:20% !important;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 100% !important;
+    width: 100%;
+}
+.img1-bottom {
+    position: absolute;
+    bottom: 80% !important;
+    margin-left: 15%;
+    width: 100%;
+}
+.img2-bottom {
+    position: absolute;
+    bottom: 80% !important;
+    margin-left: 18%;
+    width: 100%;
+}
+
+.o_footer_custom {
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+.o_row_separator {
+  border-bottom: 1px solid black;
+}
+.o_custom_row_separator {
+  border-top: 1px dashed #ccc;
+  height: 10px;
+}

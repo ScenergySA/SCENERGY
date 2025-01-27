@@ -1,0 +1,1568 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sce_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-02 07:46+0000\n"
+"PO-Revision-Date: 2023-05-02 07:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sce_sale
+#: model:ir.actions.report,print_report_name:sce_sale.action_report_sale_order_pac
+msgid "'Devis PAC - %s' % (object.name)"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.actions.report,print_report_name:sce_sale.action_report_quotation_annotations_pv
+msgid "'Devis PV - %s' % (object.name)"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "(hors subventions et aides)."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"* Montant a la date d'édition\n"
+"                                    <br/>\n"
+"                                    ** Sur base d'un taux marginal estimatif, à valider auprès de votre fiduciare"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"* Montant à la date d’édition\n"
+"                                        <br/>\n"
+"                                        ** Sur base d’un taux marginal estimatif, sous réserve de conditions\n"
+"                                        d’éligibilité et de validation par les autorités cantonales."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"* Montant à la date d’édition\n"
+"                                    <br/>\n"
+"                                    ** Sur base d’un taux marginal estimatif, à valider auprès de votre fiduciaire.\n"
+"                                    <br/>\n"
+"                                    <br/>\n"
+"                                    NB : un diagnostic amiante et polluants est exigé lors des demandes d’autorisations\n"
+"                                    pour la majorité des travaux\n"
+"                                    effectués dans des bâtiments construits avant 1991.\n"
+"                                    <br/>\n"
+"                                    Si vous ne possédez pas de diagnostic à jour, nous pouvons si vous le souhaitez vous\n"
+"                                    mettre en relation avec une\n"
+"                                    entreprise spécialisée pour effectuer les contrôles nécessaires.\n"
+"                                    <br/>\n"
+"                                    Ces frais ainsi que ceux liés à un éventuel désamiantage restent à la charge du\n"
+"                                    propriétaire."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "3% / an"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "30 ans"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"<b>\n"
+"                                            CRÉE LE\n"
+"                                        </b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"<b>\n"
+"                                            Dans le cadre d’une demande de subvention cantonale, le CECB doit être mis à\n"
+"                                            jour après les travaux par le propriétaire (1).\n"
+"                                            <br/>\n"
+"                                            Le certificat final PAC Système-module est délivré par la comission de\n"
+"                                            certification du GSP une fois l’installation réalisée, au coût de CHF\n"
+"                                            350 HT.\n"
+"                                            <br/>\n"
+"                                            Plus d’info sur https://www.wp-systemmodul.ch/fr\n"
+"                                            <br/>\n"
+"                                            (1) Les obligations légales peuvent différer suivant votre canton.\n"
+"                                            Renseignement\n"
+"                                            auprès de votre conseiller.\n"
+"                                        </b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>BON DE COMMANDE</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>Base de calcul</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>COUVERTURE</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>COÛTS DÉTAILLÉS</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>DOCUMENTS ANNEXES</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>EMPREINTE CARBONE</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>INDÉPENDANCE ET AUTONOMIE</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.web_devi_layout
+msgid "<b>PROPOSITION DE DEVIS</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "<b>RENTABILITÉ DU SYSTÈME</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>Situation actuelle:</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>TABLES DES MATIÈRES</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"<b>TONNES</b>\n"
+"                            DE CO²"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>VOTRE OFFRE</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>VOTRE POMPE A CHALEUR</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "<b>VOTRE SYSTÈME PHOTOVOLTAÏQUE</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "<b>Votre Contact</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"<br/>\n"
+"                                        <b>\n"
+"                                            VALABLE AU\n"
+"                                        </b>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "<span style=\"color: rgb(108,109,115);\">kWh</span>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "<span style=\"color: rgb(120, 194, 100);\">%</span>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "<span style=\"color: rgb(120, 194, 100);\">kWh</span>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"<span style=\"font-size:250%;\" class=\"fa fa-circle-info\"/>\n"
+"                                        <b>Que signifie le rendement net?</b>"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__actual_annual_cost
+msgid "Actual Annual Cost"
+msgstr "Coût annuel actuel"
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_actual_conso
+#: model:ir.model,name:sce_sale.model_sce_actual_conso
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__name
+#: model:ir.ui.menu,name:sce_sale.sce_actual_conso_menu
+msgid "Actual Conso"
+msgstr "Typologie de combustible / consommation actuelle"
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_actual_conso_name_uniq
+#, python-format
+msgid "Actual Conso should be unique."
+msgstr "La Conso actuelle doit être unique."
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__actual_conso_id
+msgid "Actual Consomation"
+msgstr "Typologie de combustible / consommation"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__actual_conso
+msgid "Actual Consomation Kwh"
+msgstr "Conso actuelle (en Kwh)"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Aides*"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Air:"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__annual_cost_pac
+msgid "Annual Cost energ. PAC"
+msgstr "Coût annuel energ. PAC"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__annual_eco
+msgid "Annual Economie"
+msgstr "Economie Annuelle"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__annual_production
+msgid "Annual Production Kw/h"
+msgstr "Production PV annuelle en Kw/h"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__area
+msgid "Area"
+msgstr "Air en Kwh"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__auto_consumed
+msgid "Auto Consumed Kw/h"
+msgstr "Kw/h Autoconsommés"
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_auto_consumption
+#: model:ir.model,name:sce_sale.model_sce_auto_consumption
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__auto_conso
+#: model:ir.ui.menu,name:sce_sale.sce_auto_consumptione_menu
+msgid "Auto Consumption"
+msgstr "Auto Consommation souhaitée en %"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__auto_conso_id
+msgid "Auto Consumption Kw/h"
+msgstr "Autoconsommation souhaité en %"
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_auto_consumption_auto_conso_uniq
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_purchase_price_purchase_price_uniq
+#, python-format
+msgid "Auto Consumption should be unique."
+msgstr "L'auto Consomation doit être unique."
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__auto_reinjected
+msgid "Auto Reinjected Kw/h"
+msgstr "Kw/h Réinjectés"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_view_order_form
+msgid "Autoconsomation PV"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Autoconsommation"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Autres subventions"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "BON DE COMMANDE"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__val1
+msgid "Bareme Subvention 1"
+msgstr "Multiplicateur pour calcul de subvention"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__val2
+msgid "Bareme Subvention 2"
+msgstr "Montant à ajouter pour calcul de subvention"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Boiler\n"
+"                                        <br/>\n"
+"                                        Eau Chaude:"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "CHF HT (hors subventions et aides)."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "CHF TTC, soit"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__co2_eco_vehicle
+msgid "CO2 Eco"
+msgstr ""
+"Co2 économisé annuellement correspondant à ce qu'une voiture moyenne rejette"
+" lors d'un voyage (en Kms)"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__co2_eco_tonne
+msgid "CO2 Eco Annual tonne"
+msgstr "Co2 économisé annuellement (en tonne)"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__co2_eco_tree
+msgid "CO2 Eco Tree"
+msgstr ""
+"Co2 économisé annuellement correspondant à ce que le nombre suivant d'arbres"
+" peut stocker"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__cop_fpa
+msgid "COP / FPA"
+msgstr "COP/FPA"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "COÛTS DÉTAILLÉS"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__type_calcul_co2__calcul_pac
+msgid "Calcul selon PAC"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__type_calcul_co2__calcul_pv
+msgid "Calcul selon PV"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Chauffage"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Chauffage:"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__client_elect_conso
+msgid "Client Electric Conso Kw/h"
+msgstr "Consos electriques du client en Kw/h"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__climatisation
+msgid "Climatisation"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_conso_profile
+#: model:ir.model,name:sce_sale.model_sce_conso_profile
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__conso_profile_id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__name
+#: model:ir.ui.menu,name:sce_sale.sce_conso_profile_menu
+msgid "Conso Profile"
+msgstr "Profil de consommation"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Consommation"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Consommation PAC:"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Consommation annuelle de ressources"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Consommation directe\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Consommation électrique:\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__conversion_factor
+msgid "Conversion Factor"
+msgstr "Facteur de conversion"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Coût effectif"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Coûts"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Coûts de chauffage annuels moyens"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Coûts effectifs"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__create_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__create_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__current_conso_distribution_ecs
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__pac_conso_distribution_ecs
+msgid "Current consumption distribution ECS"
+msgstr "Répartition PAC Conso ECS"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__current_heating_conso_distribution
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__pac_heating_conso_distribution
+msgid "Current heating consumption distribution"
+msgstr "Répartition PAC Conso chauffage"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "DESCRIPTION"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.actions.report,name:sce_sale.action_report_sale_order_pac
+msgid "DEVIS PAC"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.actions.report,name:sce_sale.action_report_quotation_annotations_pv
+msgid "DEVIS PV"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "DEVIS//"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__deduction_tax_2
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__deduction_tax_id
+msgid "Deduction Tax"
+msgstr "Taux de déduction fiscale en %"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__deduction_tax_amount
+msgid "Deduction Tax Amount"
+msgstr "Montant de déduction fiscale"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__deduction_tax_amount_pac
+msgid "Deduction Tax Amount PAC"
+msgstr "Montant de déduction fiscale PAC"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__depreciation_projection_years
+msgid "Depreciation Projection in Years"
+msgstr "Projection d'ammortissement en années"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Depuis 2014, SCENERGY SA accompagne les particuliers\n"
+"                                    et les professionnels dans leur transition énergétique.\n"
+"                                    <br/>\n"
+"                                    <br/>\n"
+"                                    Faites le choix d’une entreprise certifiée avec une équipe\n"
+"                                    de passionnés, partenaire de vos projets d’aujourd’hui et\n"
+"                                    de demain."
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__display_name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__display_name
+msgid "Display Name"
+msgstr "Nom Affiché"
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_distribution_network_group
+#: model:ir.ui.menu,name:sce_sale.distribution_network_group_menu
+msgid "Distribution Network Group"
+msgstr "Groupes de Réseaux de Distribution"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Données techniques"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Déductions fiscales attendues **"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Déductions fiscales attendues**"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Délai estimatif d'installation: 20 semaines après réception du 1er acompte."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "EMPREINTE CARBONE<br/>DE VOTRE SYSTÈME"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "EN ÉCONOMISANT"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__eco_n1_chf
+msgid "Economie N+1 CHF"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_view_order_form
+msgid "Economies PV"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__electrical_vehicle
+msgid "Electrical Vehicle"
+msgstr "Véhicule électrique"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__emission_co2_pac
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__emission_co2_tonne
+msgid "Emission CO2 Tonnes"
+msgstr "Emissions de CO2 future PAC (en tonne)"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__value
+msgid "Emission Value"
+msgstr "Valeur d'émission de CO2"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_view_order_form
+msgid "Emissions CO2"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_product_product__estimation_conso_pac
+#: model:ir.model.fields,field_description:sce_sale.field_product_template__estimation_conso_pac
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__estimation_conso_pac
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__estimation_conso_pac
+msgid "Estimation Conso PAC"
+msgstr "Estimation Conso Future PAC en Kwh"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Fournisseur d’énergie"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__fuel_oil_correspondence
+msgid "Fuel Oil Correspondence"
+msgstr "Correspondance L Mazout en Kwh"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__distribution_network_group_id
+msgid "GRD"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sce_actual_conso__type__gaz
+msgid "Gaz"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Gaz (en Kwh):"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__id
+msgid "ID"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "INDÉPENDANCE ET AUTONOMIE"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__independance_wished
+msgid "Independance Wished"
+msgstr "Indépendance souhaitée en %"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Indépendance"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Inflation tarif consommation"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_sce_installation_type
+msgid "Installation"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__installation_cost
+msgid "Installation Cost"
+msgstr "Coût brut de l'installation TVA incluse"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__installation_cost_pac
+msgid "Installation Cost PAC"
+msgstr "Coût installation de la PAC CHF TVA incluse"
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_installation_type
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__installation_type_id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__name
+#: model:ir.ui.menu,name:sce_sale.sce_installation_type_menu
+msgid "Installation Type"
+msgstr "Type d'installation"
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_installation_type_name_uniq
+#, python-format
+msgid "Installation type Type should be unique."
+msgstr "Le type d'installation doit être unique."
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Irradiation annuelle en Suisse"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__is_default
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__is_default
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__is_default
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__is_default
+msgid "Is default"
+msgstr "Est par défault"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__is_multiple
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__is_multiple
+msgid "Is multiple"
+msgstr "Est multiple"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Je passe commande selon l'offre du"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Je reconnais avoir pris connaissances des termes et conditions générales. Cochez la case\n"
+"                                pour accepter."
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__purchased_electrical
+msgid "Kwh purchased on the electrical network"
+msgstr "Kw/h acheté sur le réseau électrique"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"La comparaison présentée se fonde sur le mix\n"
+"                                        électrique suisse de consommation basée sur la\n"
+"                                        production et les échanges commerciaux."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"La pompe à chaleur assure un chauffage écologique et économique pour votre\n"
+"                                        logement."
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction____last_update
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__write_uid
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_auto_consumption__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_conso_profile__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_installation_type__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__write_date
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Le système photovoltaïque produit de l’électricité respectueuse de\n"
+"                                        l’environnement sur votre toit."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Les rendements sont les économies totales réalisées\n"
+"                                        grâce à la production propre d’électricité et les\n"
+"                                        rendements des ventes d’électricité, moins les\n"
+"                                        coûts d’exploitation sur la durée de vie utile de\n"
+"                                        l’installation photovoltaïque"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Les valeurs exprimées prennent en\n"
+"                                    compte des projections basées sur des\n"
+"                                    modèles de consommations et des profils\n"
+"                                    types adaptés.\n"
+"                                    <br/>\n"
+"                                    <br/>\n"
+"                                    Plusieurs facteurs (habitudes\n"
+"                                    des utilisateurs, répartitions des\n"
+"                                    consommations, puissance et nombre\n"
+"                                    d’appareils, saisonnalité etc...) peuvent\n"
+"                                    impacter dans un sens ou dans un autre les\n"
+"                                    chiffres et pourcentages exprimés."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Lieu et Date"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_sce_machine
+msgid "Machine"
+msgstr "Type de machine"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__machine_id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__name
+msgid "Machine Type"
+msgstr "Type de machine"
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_machine_name_uniq
+#, python-format
+msgid "Machine Type should be unique."
+msgstr "Le type de machine doit être unique."
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Maison individuelle"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_product_template_only_form_view
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_view_order_form
+msgid "Matrice PV PAC"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sce_actual_conso__type__mazout
+msgid "Mazout"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Mazout (en litres)"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Merci pour votre confiance !"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"NB : un diagnostic amiante et polluants est exigé lors des demandes\n"
+"                                        d’autorisations\n"
+"                                        pour la majorité des travaux\n"
+"                                        effectués dans des bâtiments construits avant 1991.\n"
+"                                        <br/>\n"
+"                                        Si vous ne possédez pas de diagnostic à jour, nous pouvons si vous le souhaitez\n"
+"                                        vous\n"
+"                                        mettre en relation avec une\n"
+"                                        entreprise spécialisée pour effectuer les contrôles nécessaires.\n"
+"                                        <br/>\n"
+"                                        Ces frais ainsi que ceux liés à un éventuel désamiantage restent à la charge du\n"
+"                                        propriétaire."
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_distribution_network_group__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_conso_profile_note_uniq
+#, python-format
+msgid "Name should be unique."
+msgstr "Le nom doit être unique."
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__climatisation__no
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__electrical_vehicle__no
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__pac_piscine__no
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__storage_battery__no
+msgid "No"
+msgstr "Non"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Nous vous remercions de votre demande. Vous trouverez notre offre ci-dessous"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Nouvelle installation de<br/>chauffage pompe à chaleur"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__nb_panels
+msgid "Number of pannels"
+msgstr "Nombre de panneaux"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__order_lines
+msgid "Order Lines"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_orientation
+#: model:ir.model,name:sce_sale.model_sce_orientation
+#: model:ir.model,name:sce_sale.model_sce_orientation_name
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__orientation_id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__orientation_id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation_name__orientation
+#: model:ir.ui.menu,name:sce_sale.sce_orientation_menu
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Orientation"
+msgstr ""
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_orientation_name_orientation_uniq
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_orientation_orientation_uniq
+#, python-format
+msgid "Orientation should be unique."
+msgstr "L'orientation doit être unique."
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__others_subvention
+msgid "Others Subvention"
+msgstr "Autre Subvention"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__pac_piscine
+msgid "PAC Piscine"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "POMPE À CHALEUR"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "PRIX CHF"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "PRIX PAR UNITE/CHF"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "PV durée de vie"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sce_actual_conso__type__pellet
+msgid "Pellet"
+msgstr "Bois/Pellet"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Pompe à Chaleur"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Pompe à chaleur air/eau"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_product_template
+msgid "Product"
+msgstr "Article"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__categ_id
+msgid "Product Category"
+msgstr "Catégorie de Produit"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__product_domain
+msgid "Product Domain"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Productible"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_product_product__puissance
+#: model:ir.model.fields,field_description:sce_sale.field_product_template__puissance
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__puissance
+#: model:ir.model.fields,field_description:sce_sale.field_sce_machine__puissance
+msgid "Puissance"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Puissance PV"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sce_purchase_price__type__purchase
+msgid "Purchase"
+msgstr "Achat"
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_sce_purchase_price
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__purchase_price_id
+#: model:ir.ui.menu,name:sce_sale.sce_purchase_price_menu
+msgid "Purchase Price"
+msgstr "Tarif d'achat d'électricité"
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_purchase_price
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__purchase_price
+msgid "Purchase/Repurchase Price"
+msgstr "Tarif d'achat / rachat"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "QUANTITÉ"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "RENTABILITÉ DU SYSTÈME PHOTOVOLTAÏQUE"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__real_cost
+msgid "Real Cost"
+msgstr "Coût Réel"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__real_investment_n1
+msgid "Real Investment N+1"
+msgstr "Investissement réel N+1"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_view_order_form
+msgid "Rendement PV"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sce_purchase_price__type__repurchase
+msgid "Repurchase"
+msgstr "Rachat"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__repurchase_price_id
+msgid "Repurchase Price"
+msgstr "Tarif de rachat d'électricité"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Réseau électrique:\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Rétribution unique Pronovo"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Rétribution unique* + Autres subv."
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "SYSTÈME PHOTOVOLTAÏQUE"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Signature"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Sources: OFEV : “Bilan environnemental des mixes\n"
+"                                        électriques Suisse 2018, 2021” et IEA “Analyse du\n"
+"                                        cycle de vie des émissions de CO des systèmes\n"
+"                                        photovoltaïques, scénario BAU,2015” (titre traduit)"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__storage_battery
+msgid "Storage Battery"
+msgstr "Batterie de stockage"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__subvention_cantonal_pac
+msgid "Subvention Cantona PAC"
+msgstr "Subvention cantonale PAC"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__subvention_communal
+msgid "Subvention Communal"
+msgstr "Subvention communale"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__subvention_pronovo
+msgid "Subvention Pronovo"
+msgstr "Subvention Pronovo en vigueur"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Subvention cantonale jusqu’à :"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Système\n"
+"                                                photovoltaïque("
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "Système photovoltaïque HT"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "TOTAL TVA INCLUSE //"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "TTC, soit"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"TVA\n"
+"                                            7,7%"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "TVA 7,7%"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_tax_deduction
+#: model:ir.model,name:sce_sale.model_sce_tax_deduction
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__name
+#: model:ir.model.fields,field_description:sce_sale.field_sce_tax_deduction__name_str
+#: model:ir.ui.menu,name:sce_sale.sce_tax_deduction_menu
+msgid "Tax Deduction"
+msgstr "Taux de déduction fiscale en %"
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_tax_deduction_name_uniq
+#, python-format
+msgid "Tax Deduction should be unique."
+msgstr "Le taux de déduction fiscale doit être unique."
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Tel:"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__theoretical_yield
+#: model:ir.model.fields,field_description:sce_sale.field_sce_orientation__theoretical_yield
+msgid "Theoretical Yield"
+msgstr "Rendement Théorique"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__theoretical_yield_2
+msgid "Theoretical Yield 2"
+msgstr "Copie du Rendement Théorique ou saisie manuelle"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Tonnes"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__total_puissance
+msgid "Total Puissance KWC"
+msgstr "Puissance totale en KWC"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Total TVA incluse"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Total hors TVA 7,7%"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sce_actual_conso__type
+#: model:ir.model.fields,field_description:sce_sale.field_sce_purchase_price__type
+msgid "Type"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Type d'habitation"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.sce_view_order_form
+msgid "Type d'installation"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__type_calcul_co2
+msgid "Type de calcul CO2"
+msgstr ""
+
+#. module: sce_sale
+#. odoo-python
+#: code:addons/sce_sale/models/sce_referential.py:0
+#: model:ir.model.constraint,message:sce_sale.constraint_sce_unit_puissance_unit_power_uniq
+#, python-format
+msgid "Unit Power should be unique."
+msgstr "La puissance unitaire être unique."
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_sce_unit_puissance
+msgid "Unit Puissance"
+msgstr "Puissance unitaire"
+
+#. module: sce_sale
+#: model:ir.actions.act_window,name:sce_sale.action_sce_unit_puissance
+#: model:ir.ui.menu,name:sce_sale.sce_unit_puissance_menu
+msgid "Unit power"
+msgstr "Puissance unitaire"
+
+#. module: sce_sale
+#: model:ir.model.fields,field_description:sce_sale.field_sale_order__unit_power_id
+#: model:ir.model.fields,field_description:sce_sale.field_sce_unit_puissance__unit_power
+msgid "Unit power of the panel in WC"
+msgstr "Puissance unitaire du panneau en WC"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"VOTRE NOUVEAU CHAUFFAGE\n"
+"                                <br/>\n"
+"                                ET SYSTÈME D’EAU CHAUDE"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "VOTRE OFFRE"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "VOTRE PROJET EN UN COUP D'OEIL"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "VOTRE SYSTÈME PHOTOVOLTAÏQUE"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Vers une énergie renouvelable et durable\n"
+"                                        <br/>\n"
+"                                        #scenergy"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Votre\n"
+"                                                investissement (réel)"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Votre autoconsommation directe:\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Votre autoconsommation:\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Votre degré d’indépendance\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Votre investissement"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Votre investissement (réel)"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid ""
+"Votre production d’électricité annuelle:\n"
+"                                                    <br/>"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Vous économisez autant de CO² que ce que le nombre suivant d'arbres peut\n"
+"                                        stocker en un an:"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid ""
+"Vous évitez de rejeter autant de CO² que ce qu'une voiture moyenne rejette\n"
+"                                        lors d'un voyage de:"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__climatisation__yes
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__electrical_vehicle__yes
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__pac_piscine__yes
+#: model:ir.model.fields.selection,name:sce_sale.selection__sale_order__storage_battery__yes
+msgid "Yes"
+msgstr "Oui"
+
+#. module: sce_sale
+#: model:ir.model,name:sce_sale.model_distribution_network_group
+msgid "distribution.network.group"
+msgstr ""
+
+#. module: sce_sale
+#: model:ir.model.fields.selection,name:sce_sale.selection__sce_actual_conso__type__electricity
+msgid "electricity"
+msgstr "Electricité"
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "kWc"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "kWc)"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "kWh"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "kWh/an"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "km"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "kwh"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "pour la variante \"Système Pompe à Chaleur\" réf"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+msgid "pour la variante \"Système photovoltaïque\" réf"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "pour un montant de"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Émissions de votre nouveau système"
+msgstr ""
+
+#. module: sce_sale
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_devi_pv_annotations
+#: model_terms:ir.ui.view,arch_db:sce_sale.report_sale_order_pac
+msgid "Émissions de votre sytème actuel"
+msgstr ""

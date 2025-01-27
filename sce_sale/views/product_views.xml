@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="sce_product_template_only_form_view" model="ir.ui.view">
+            <field name="name">product.template.form.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[1]" position="after">
+                    <group string="Matrice PV PAC">
+                        <field name="puissance"/>
+                        <field name="estimation_conso_pac"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

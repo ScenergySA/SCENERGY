@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="scenergy_costum_report_paperformat" model="report.paperformat">
+        <field name="name">Custom paper format scenergy</field>
+        <field name="default" eval="False"/>
+        <field name="format">A4</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">20</field>
+        <field name="margin_bottom">13</field>
+        <field name="margin_left">10</field>
+        <field name="margin_right">10</field>
+        <field name="dpi">70</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">10</field>
+    </record>
+
+    <template id="web_devi_layout">
+        <t t-if="doc._table=='sale_order'">
+            <div class="header not-first-page">
+                <div class="row" style="background-color: #C4C9C7; font-family: 'Lato';">
+                    <table class="table-borderless">
+                        <tr style="font-size: 14px;">
+                            <td style="width:4%; font-size: 20px !important; text-align:center;">
+                                <b>
+                                    <span id="start" class="page"/>
+                                </b>
+                            </td>
+                            <td style="margin-left:5px; border-left: 3px solid #FFFFFF; width:32%; ">
+                                <b>
+                                    <span t-esc="doc.name"/>
+                                </b>
+                            </td>
+                            <td style="width:32%;text-align:center;">
+                                <b>
+                                    <span t-field="doc.date_order" t-options='{"format": "dd.MM.yyyy"}'/>
+                                </b>
+                            </td>
+                            <td class="text-center" style="width:40%;">
+                                <b>PROPOSITION DE DEVIS</b>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <script>
+                    var myVar = $("#start").val();
+                    console.log(myVar);
+                </script>
+            </div>
+
+            <div class="article o_report_layout_standard">
+                <link rel="stylesheet" href="/sce_sale/static/src/css/sale_custom_scss.css"/>
+                <link rel="stylesheet" href="/sce_sale/static/src/css/fontawesome.css"/>
+                <t t-out="0"/>
+            </div>
+
+            <!--<div class="footer o_standard_footer not-first-page "
+                 style="border-top: 0px; border-bottom: 0px; solid-black">
+                <p style="text-align:center">Merci pour votre confiance !</p>
+            </div>-->
+
+        </t>
+    </template>
+</odoo>

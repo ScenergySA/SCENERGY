@@ -1,0 +1,110 @@
+<odoo>
+    <data>
+
+        <record id="sce_view_order_form" model="ir.ui.view">
+            <field name="name">sale.order.form.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='customer_signature']" position="after">
+                    <page string="Matrice PV PAC">
+                        <group>
+                            <group>
+                                <field name="product_domain" invisible="1"/>
+                                <field name="is_multiple" invisible="1"/>
+                                <field name="categ_id"/>
+                                <field name="machine_id" domain="product_domain"/>
+                            </group>
+                        </group>
+                        <group string="Rendement PV">
+                            <group>
+                                <field name="unit_power_id"/>
+                                <field name="nb_panels"/>
+                                <field name="total_puissance"/>
+                            </group>
+                            <group>
+                                <field name="orientation_id"/>
+                                <field name="theoretical_yield" attrs="{'readonly': [('is_multiple', '=', False)]}"/>
+                                <field name="theoretical_yield_2"/>
+                                <field name="annual_production"/>
+                            </group>
+                        </group>
+                        <group string="Autoconsomation PV">
+                            <group>
+                                <field name="conso_profile_id"/>
+                                <field name="client_elect_conso"/>
+                                <field name="auto_conso_id"/>
+                                <field name="purchase_price_id"/>
+                                <field name="repurchase_price_id"/>
+                            </group>
+                            <group>
+                                <field name="auto_consumed"/>
+                                <field name="purchased_electrical" readonly="1"/>
+                                <field name="auto_reinjected"/>
+                                <field name="electrical_vehicle"/>
+                                <field name="storage_battery"/>
+                                <field name="pac_piscine"/>
+                                <field name="climatisation"/>
+                                <field name="independance_wished"/>
+                                <field name="distribution_network_group_id"/>
+                            </group>
+                        </group>
+                        <group string="Economies PV">
+                            <group>
+                                <field name="eco_n1_chf"/>
+                                <field name="installation_cost"/>
+                                <field name="installation_type_id"/>
+                                <field name="subvention_pronovo"/>
+                                <field name="subvention_communal"/>
+                            </group>
+                            <group>
+                                <field name="deduction_tax_id"/>
+                                <field name="deduction_tax_amount"/>
+                                <field name="real_cost"/>
+                                <field name="depreciation_projection_years"/>
+                            </group>
+                        </group>
+                        <group string="Type d'installation">
+                            <group>
+                                <field name="puissance"/>
+                                <field name="actual_conso_id"/>
+                                <field name="cop_fpa"/>
+                                <field name="actual_conso"/>
+                                <field name="actual_annual_cost"/>
+                                <field name="fuel_oil_correspondence"/>
+                                <field name="current_heating_conso_distribution"/>
+                                <field name="current_conso_distribution_ecs"/>
+                                <field name="estimation_conso_pac"/>
+                                <field name="pac_heating_conso_distribution"/>
+                                <field name="pac_conso_distribution_ecs"/>
+                                <field name="area"/>
+                            </group>
+                            <group>
+                                <field name="annual_cost_pac"/>
+                                <field name="annual_eco"/>
+                                <field name="installation_cost_pac"/>
+                                <field name="subvention_cantonal_pac"/>
+                                <field name="others_subvention"/>
+                                <field name="deduction_tax_2"/>
+                                <field name="deduction_tax_amount_pac"/>
+                                <field name="real_investment_n1"/>
+                            </group>
+                        </group>
+                        <group string="Emissions CO2">
+                            <group>
+                                <field name="type_calcul_co2" widget="radio"/>
+                                <field name="emission_co2_tonne"/>
+                                <field name="emission_co2_pac"/>
+                                <field name="co2_eco_tonne"/>
+                            </group>
+                            <group>
+                                <field name="co2_eco_vehicle"/>
+                                <field name="co2_eco_tree"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
